@@ -1,0 +1,23 @@
+.sectionemail{
+    display: flex;
+    align-items: center;
+    border-bottom-width: 2px;
+    padding: 15px;
+    cursor: pointer;
+    min-width: 200px;
+    cursor: pointer;
+    color: gray;
+    border-width: 0 !important;
+}
+.sectionemail h4{
+    font-size: 14px;
+    margin-left: 15px;
+}
+.sectionemail:hover{
+    border-width: 3px;
+    background-color: whitesmoke;
+}
+.section--selected{
+    background-color: whitesmoke;
+    border-width: 3px !important;
+}
